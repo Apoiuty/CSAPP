@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP/./Chapter2/chapter2.h
+stddef.h
+-
+
+E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP/main.c
+stdio.h
+-
+./Chapter2/chapter2.h
+E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP/./Chapter2/chapter2.h
+
