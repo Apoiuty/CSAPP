@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CSAPP.dir/main.c.obj"
   "CMakeFiles/CSAPP.dir/Chapter2/chapter2.c.obj"
-  "CSAPP.pdb"
+  "CMakeFiles/CSAPP.dir/main.c.obj"
   "CSAPP.exe"
   "CSAPP.exe.manifest"
+  "CSAPP.pdb"
   "libCSAPP.dll.a"
 )
 

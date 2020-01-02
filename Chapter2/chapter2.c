@@ -11,8 +11,8 @@
 
 
 void show_bytes(unsigned char *start, size_t len) {
-    size_t i;
-    for (i = 0; i < len; i++) {
+    int i;
+    for (i = len-1; i >=0; i--) {
         printf("%.2x", start[i]);
     }
     printf("\n");
@@ -72,7 +72,7 @@ int left_most(unsigned x) {
 }
 
 int low_one_mask(int n, int w) {
-    return ~(INT_MIN >> (w - n - 1));
+    return ((unsigned) -1 >> (w - n));
 }
 
 unsigned rotate_left(unsigned x, int n) {
@@ -81,8 +81,7 @@ unsigned rotate_left(unsigned x, int n) {
 }
 
 int fit_bits(int x, int n) {
-    x >>= n - 1;
-    return !(x >> 1) || !~x;
+    return !x || !(x >> (n - 1) >> 1);
 }
 
 int xbyte(unsigned x, int bytenum) {
@@ -125,7 +124,9 @@ void *my_calloc(size_t nmemb, int size) {
 }
 
 int divide_power2(int x, int k) {
-    return (x + (1 << k) - 1) >> k;
+    int result = x >> k;
+    (x & INT_MIN) && (result = (x + (1 << k) - 1) >> k);
+    return result;
 }
 
 int mul3div4(int x) {
@@ -134,6 +135,7 @@ int mul3div4(int x) {
 }
 
 int threefourths(int x) {
+    //要先算除法再算乘法
     int is_neg = x & INT_MIN;
     int low2 = x & 0x3;
     int high30 = x & ~0x3;
@@ -173,4 +175,163 @@ float fpwr(int x) {
 float u2f(unsigned int u) {
 //    如何将一种数据类型解释为另一种数据类型
     return *(float *) &u;
+}
+
+int any_odd_ones(unsigned x) {
+    return x & 0x55555555;
+}
+
+int tsub_ok(int x, int y) {
+    int result = 1;
+    int mask = INT_MIN;
+    !(y ^ INT_MIN) && !(x & INT_MIN) && (result = 0);
+
+    y = -y;
+    int sum = x + y;
+    int pos_overflow = (y ^ INT_MIN) && !(x & mask) && !(y & mask) && (sum & mask);
+    int neg_overflow = (y ^ INT_MIN) && (x & mask) && (y & mask) && !(sum & mask);
+    (pos_overflow && (result = 0)) || (neg_overflow && (result = 0));
+    return result;
+}
+
+int float_le(float x, float y) {
+    unsigned ux = f2u(x);
+    unsigned uy = f2u(y);
+    unsigned sx = ux >> 31, sy = uy >> 31;
+    return (sx && !sy) || (!sx && !sy && ux <= uy) || (sx && sy && ux >= uy);
+}
+
+unsigned f2u(float f) {
+    return *(unsigned *) &f;
+}
+
+float float_negate(float f) {
+    unsigned F = *(unsigned *) &f;
+    unsigned sign = F >> 31;
+    unsigned exp = F >> 23 & 0xff;
+    unsigned frac = F & 0x7fffff;
+    if (sign == 1 && exp == 0xff && frac) {
+        return f;
+    } else {
+        F = F ^ INT_MIN;
+        return *(float *) &(F);
+    }
+
+
+}
+
+float float_twice(float f) {
+    unsigned F = *(unsigned *) &f;
+    unsigned sign = F >> 31;
+    unsigned exp = F >> 23 & 0xff;
+    unsigned frac = F & 0x7fffff;
+
+    if (sign == 1 && exp == 0xff && frac) {
+        return f;
+    } else {
+        if (exp == 0) {
+            frac <<= 1;
+        } else if (exp == 0xFF - 1) {
+            exp = 0xFF;
+            frac = 0;
+        } else {
+            exp += 1;
+        }
+        F = sign << 31 | exp << 23 | frac;
+        return *(float *) &F;
+    }
+
+}
+
+int f2i(float f) {
+    unsigned F = *(unsigned *) &f;
+    unsigned sign = F >> 31;
+    unsigned exp = F >> 23 & 0xff;
+    unsigned frac = F & 0x7fffff;
+    frac |= 0x800000;
+
+    uint64_t Frac = frac;
+    int result;
+    int E = exp;
+    E -= 127 + 23;
+    if (E >= 0 && E < 128) {
+        Frac = Frac << E;
+        if (Frac == frac << E && !((frac << E) & INT_MIN)) {
+            result = Frac;
+            return sign ? -result : result;
+        } else {
+            return 0x80000000;
+        }
+    } else if (E > -24 && E < 0) {
+        E = -E;
+        frac >>= E;
+        result = frac;
+        return sign == 1 ? -result : result;
+    } else {
+        if (E == 128) {
+            return 0x80000000;
+        } else
+            return 0;
+    }
+}
+
+float i2f(int i) {
+    unsigned frac;
+    unsigned sign = 0;
+    int exp;
+
+
+    if (i < 0) {
+//    if i is INT_MIN
+        sign = 1;
+        if (i == INT_MIN) {
+            frac = INT_MAX;
+            frac++;
+        } else {
+            frac = -i;
+        }
+    } else
+        frac = i;
+
+
+    int first_one;
+    unsigned mask = INT_MIN;
+    for (first_one = 31; first_one >= 0; --first_one) {
+        if (mask & frac) {
+            break;
+        }
+        mask >>= 1;
+    }
+
+    if (first_one < 0) {
+        return 0;
+    } else if (first_one <= 23) {
+        exp = first_one;
+        frac = frac << 23 - first_one;
+    } else if (first_one > 23) {
+        exp = first_one;
+
+//        round to even
+        int last_bit = (frac >> first_one - 23) & 1;
+        int cut_off = frac & (~(INT_MIN >> 54 - first_one));
+        if ((cut_off == 1 << first_one - 24) && last_bit == 1) {
+            frac >>= first_one - 23;
+            frac--;
+        } else if (cut_off > 1 << first_one - 24) {
+            frac =frac>>first_one - 23;
+            if ((frac >> 23) != (frac + 1 >> 23)) {
+                frac++;
+                frac>>=1;
+                exp++;
+            }
+        } else
+            frac >>= first_one - 23;
+    }
+
+    exp += 127;
+
+    unsigned F = sign << 31 | exp << 23 | frac & 0x7fffff;
+
+    return *(float *) &F;
+
 }

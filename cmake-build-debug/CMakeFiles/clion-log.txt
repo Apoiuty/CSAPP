@@ -1,4 +1,4 @@
-"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\OneDrive\OneDrive - mail.nwpu.edu.cn\Project\CSAPP"
+"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Project\CSAPP
 -- The C compiler identification is GNU 8.2.0
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP/cmake-build-debug
+-- Build files have been written to: E:/Project/CSAPP/cmake-build-debug

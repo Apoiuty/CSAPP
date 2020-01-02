@@ -1,4 +1,4 @@
-# Install script for directory: E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP
+# Install script for directory: E:/Project/CSAPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/OneDrive/OneDrive - mail.nwpu.edu.cn/Project/CSAPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Project/CSAPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
