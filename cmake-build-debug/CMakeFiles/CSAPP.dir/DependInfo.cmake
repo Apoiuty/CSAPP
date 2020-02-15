@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/Project/CSAPP/Chapter2/chapter2.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter2/chapter2.c.obj"
+  "E:/Project/CSAPP/Chapter3/chapter3.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.obj"
   "E:/Project/CSAPP/main.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

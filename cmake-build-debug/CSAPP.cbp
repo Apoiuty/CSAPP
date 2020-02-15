@@ -80,6 +80,12 @@
 		<Unit filename="E:/Project/CSAPP/Chapter2/chapter2.h">
 			<Option target="CSAPP"/>
 		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter3/chapter3.c">
+			<Option target="CSAPP"/>
+		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter3/chapter3.h">
+			<Option target="CSAPP"/>
+		</Unit>
 		<Unit filename="E:/Project/CSAPP/main.c">
 			<Option target="CSAPP"/>
 		</Unit>
