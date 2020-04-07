@@ -1,7 +1,13 @@
 #include <stdio.h>
-#include "./Chapter3/chapter3.h"
+#include "./Chapter5/chapter5.h"
+
 int main() {
-    b_strcut bp;
-    test(5, &bp);
+    int a[8];
+
+    int *b = basic_memset(a, -1, 32);
+
+    for (int i = 0; i < 8; ++i) {
+        printf("%d\n", a[i]);
+    }
     return 0;
 }

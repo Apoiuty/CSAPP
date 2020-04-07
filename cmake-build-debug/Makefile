@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\Project\CSAPP\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -176,6 +176,33 @@ Chapter3/chapter3.c.s:
 	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.s
 .PHONY : Chapter3/chapter3.c.s
 
+Chapter5/chapter5.obj: Chapter5/chapter5.c.obj
+
+.PHONY : Chapter5/chapter5.obj
+
+# target to build an object file
+Chapter5/chapter5.c.obj:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.obj
+.PHONY : Chapter5/chapter5.c.obj
+
+Chapter5/chapter5.i: Chapter5/chapter5.c.i
+
+.PHONY : Chapter5/chapter5.i
+
+# target to preprocess a source file
+Chapter5/chapter5.c.i:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.i
+.PHONY : Chapter5/chapter5.c.i
+
+Chapter5/chapter5.s: Chapter5/chapter5.c.s
+
+.PHONY : Chapter5/chapter5.s
+
+# target to generate assembly for a file
+Chapter5/chapter5.c.s:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.s
+.PHONY : Chapter5/chapter5.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... Chapter3/chapter3.obj
 	@echo ... Chapter3/chapter3.i
 	@echo ... Chapter3/chapter3.s
+	@echo ... Chapter5/chapter5.obj
+	@echo ... Chapter5/chapter5.i
+	@echo ... Chapter5/chapter5.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

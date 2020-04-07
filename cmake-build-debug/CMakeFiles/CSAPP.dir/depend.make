@@ -4,6 +4,12 @@
 CMakeFiles/CSAPP.dir/Chapter2/chapter2.c.obj: ../Chapter2/chapter2.c
 CMakeFiles/CSAPP.dir/Chapter2/chapter2.c.obj: ../Chapter2/chapter2.h
 
-CMakeFiles/CSAPP.dir/main.c.obj: ../Chapter2/chapter2.h
+CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.obj: ../Chapter3/chapter3.c
+CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.obj: ../Chapter3/chapter3.h
+
+CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.obj: ../Chapter5/chapter5.c
+CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.obj: ../Chapter5/chapter5.h
+
+CMakeFiles/CSAPP.dir/main.c.obj: ../Chapter5/chapter5.h
 CMakeFiles/CSAPP.dir/main.c.obj: ../main.c
 

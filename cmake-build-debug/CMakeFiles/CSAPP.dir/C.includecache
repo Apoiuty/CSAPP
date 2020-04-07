@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/Project/CSAPP/Chapter2/chapter2.h
-stddef.h
--
-
-E:/Project/CSAPP/main.c
+E:/Project/CSAPP/Chapter5/chapter5.c
+chapter5.h
+E:/Project/CSAPP/Chapter5/chapter5.h
 stdio.h
 -
-./Chapter2/chapter2.h
-E:/Project/CSAPP/Chapter2/chapter2.h
-limits.h
+
+E:/Project/CSAPP/Chapter5/chapter5.h
+stddef.h
 -
 
