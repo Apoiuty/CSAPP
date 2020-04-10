@@ -203,6 +203,33 @@ Chapter5/chapter5.c.s:
 	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.s
 .PHONY : Chapter5/chapter5.c.s
 
+Chapter6/chapter6.obj: Chapter6/chapter6.c.obj
+
+.PHONY : Chapter6/chapter6.obj
+
+# target to build an object file
+Chapter6/chapter6.c.obj:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter6/chapter6.c.obj
+.PHONY : Chapter6/chapter6.c.obj
+
+Chapter6/chapter6.i: Chapter6/chapter6.c.i
+
+.PHONY : Chapter6/chapter6.i
+
+# target to preprocess a source file
+Chapter6/chapter6.c.i:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter6/chapter6.c.i
+.PHONY : Chapter6/chapter6.c.i
+
+Chapter6/chapter6.s: Chapter6/chapter6.c.s
+
+.PHONY : Chapter6/chapter6.s
+
+# target to generate assembly for a file
+Chapter6/chapter6.c.s:
+	$(MAKE) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/Chapter6/chapter6.c.s
+.PHONY : Chapter6/chapter6.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... Chapter5/chapter5.obj
 	@echo ... Chapter5/chapter5.i
 	@echo ... Chapter5/chapter5.s
+	@echo ... Chapter6/chapter6.obj
+	@echo ... Chapter6/chapter6.i
+	@echo ... Chapter6/chapter6.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -92,6 +92,12 @@
 		<Unit filename="E:/Project/CSAPP/Chapter5/chapter5.h">
 			<Option target="CSAPP"/>
 		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter6/chapter6.c">
+			<Option target="CSAPP"/>
+		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter6/chapter6.h">
+			<Option target="CSAPP"/>
+		</Unit>
 		<Unit filename="E:/Project/CSAPP/main.c">
 			<Option target="CSAPP"/>
 		</Unit>
