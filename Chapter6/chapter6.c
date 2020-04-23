@@ -22,6 +22,7 @@ int transpose(int *des, int *src, int dim) {
     for (; i <= dim - 1; i++)
         for (; j <= dim - 1; j++)
             des[j * dim + i] = src[i * dim + j];
+
 }
 
 void col_convert(int *G, int dim) {

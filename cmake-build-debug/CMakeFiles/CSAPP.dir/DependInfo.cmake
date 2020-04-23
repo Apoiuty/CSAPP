@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/Project/CSAPP/Chapter3/chapter3.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.obj"
   "E:/Project/CSAPP/Chapter5/chapter5.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.obj"
   "E:/Project/CSAPP/Chapter6/chapter6.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter6/chapter6.c.obj"
+  "E:/Project/CSAPP/Chapter8/chapter8.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter8/chapter8.c.obj"
   "E:/Project/CSAPP/main.c" "E:/Project/CSAPP/cmake-build-debug/CMakeFiles/CSAPP.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

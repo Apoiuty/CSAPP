@@ -11,26 +11,40 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-MinGW" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383705e3-71f9-4cde-8f3f-ee119e37d476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter6/chapter6.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/chapter6.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/chapter8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/chapter8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter8/csapp.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/chapter3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/chapter3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/chapter3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/chapter3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/chapter6.c" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/chapter6.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/Chapter2/chapter2.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/objects.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSAPP.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSAPP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSAPP.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSAPP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSAPP.exe" afterDir="false" />
@@ -59,12 +73,7 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FavoritesManager">
-    <favorites_list name="CSAPP">
-      <favorite_root url="file://$PROJECT_DIR$/Chapter6/chapter6.h" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
   <component name="FileColors">
     <fileColor scope="C2" color="Blue" />
   </component>
@@ -81,17 +90,19 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC&#10;TEXT" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,7 +114,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.ObjectiveC" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Chapter3/chapter3.h" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\CSAPP\Chapter8" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -111,30 +129,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CSAPP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CSAPP" TARGET_NAME="CSAPP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CSAPP" RUN_TARGET_NAME="CSAPP">
+    <configuration name="CSAPP" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CSAPP" TARGET_NAME="CSAPP" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CSAPP" RUN_TARGET_NAME="CSAPP">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\24503\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -195,7 +201,35 @@
       <workItem from="1586436844552" duration="207000" />
       <workItem from="1586437079099" duration="698000" />
       <workItem from="1586450257168" duration="1062000" />
-      <workItem from="1586494713162" duration="2152000" />
+      <workItem from="1586494713162" duration="3211000" />
+      <workItem from="1586580633329" duration="277000" />
+      <workItem from="1586847611260" duration="710000" />
+      <workItem from="1586861109756" duration="4744000" />
+      <workItem from="1586917101103" duration="652000" />
+      <workItem from="1586918057584" duration="3450000" />
+      <workItem from="1586925997824" duration="5000" />
+      <workItem from="1587131643408" duration="1454000" />
+      <workItem from="1587133296067" duration="106000" />
+      <workItem from="1587133510123" duration="13000" />
+      <workItem from="1587133531670" duration="61000" />
+      <workItem from="1587133910214" duration="95000" />
+      <workItem from="1587134028811" duration="36000" />
+      <workItem from="1587134083433" duration="94000" />
+      <workItem from="1587134225952" duration="19000" />
+      <workItem from="1587134261489" duration="28000" />
+      <workItem from="1587134303281" duration="73000" />
+      <workItem from="1587134779389" duration="241000" />
+      <workItem from="1587135729011" duration="67000" />
+      <workItem from="1587135817727" duration="36000" />
+      <workItem from="1587203222573" duration="168000" />
+      <workItem from="1587203401910" duration="4405000" />
+      <workItem from="1587222617840" duration="1535000" />
+      <workItem from="1587224237116" duration="144000" />
+      <workItem from="1587224393088" duration="187000" />
+      <workItem from="1587480427802" duration="39000" />
+      <workItem from="1587556655159" duration="259000" />
+      <workItem from="1587556932334" duration="1597000" />
+      <workItem from="1587611525846" duration="2295000" />
     </task>
     <task id="LOCAL-00001" summary="第二章习题">
       <created>1577961236649</created>
@@ -218,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586238502007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Chapter6">
+      <created>1586497117098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586497117098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +269,8 @@
     <MESSAGE value="第二章习题" />
     <MESSAGE value="Chapter3" />
     <MESSAGE value="Chapter5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter5" />
+    <MESSAGE value="Chapter6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="73" key="#C/C++" timestamp="1586350672763">
@@ -239,22 +281,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="504" y="54" key="#Chrome_Settings/0.0.1536.824@0.0.1536.824" timestamp="1586353103738" />
+    <state x="337" y="70" key="#Custom_Plugin_Repositories" timestamp="1587222968444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="70" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1587222968444" />
+    <state x="361" y="70" key="#New_File_Extensions" timestamp="1586861177268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#New_File_Extensions/0.0.1536.824@0.0.1536.824" timestamp="1586861177268" />
     <state x="302" y="74" key="#Updates" timestamp="1586161231341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="302" y="74" key="#Updates/0.0.1536.824@0.0.1536.824" timestamp="1586161231341" />
-    <state x="219" y="78" width="991" height="677" key="#Vim_Emulation" timestamp="1586495752531">
+    <state x="219" y="78" width="991" height="677" key="#Vim_Emulation" timestamp="1586861264392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="219" y="78" width="991" height="677" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1586495752531" />
-    <state x="485" y="265" width="758" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1581568804648">
+    <state x="219" y="78" width="991" height="677" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1586861264392" />
+    <state x="485" y="265" width="758" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1587203856907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="485" y="265" width="758" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1581568804648" />
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586352701875">
+    <state x="485" y="265" width="758" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1587203856907" />
+    <state x="205" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587556981803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586352701875" />
+    <state x="205" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587556981803" />
     <state x="429" y="118" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1586161414843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,34 +337,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="256" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1586163894468" />
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1586238499266">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1586497114080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586238499266" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586497114080" />
+    <state x="88" y="106" width="1350" height="638" key="DiffContextDialog" timestamp="1586865490190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="88" y="106" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586865490190" />
     <state x="512" y="143" key="EnvironmentVariablesDialog" timestamp="1586354786496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="143" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586354786496" />
-    <state x="339" y="78" width="589" height="560" key="FileChooserDialogImpl" timestamp="1586421577994">
+    <state x="378" y="78" width="589" height="560" key="FileChooserDialogImpl" timestamp="1587556968106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="78" width="589" height="560" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586421577994" />
-    <state width="1493" height="5" key="GridCell.Tab.0.bottom" timestamp="1586451390861">
+    <state x="378" y="78" width="589" height="560" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587556968106" />
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1587558531867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="5" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586451390861" />
-    <state width="1493" height="5" key="GridCell.Tab.0.center" timestamp="1586451390861">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587558531867" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1587558531867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="5" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586451390861" />
-    <state width="1493" height="5" key="GridCell.Tab.0.left" timestamp="1586451390861">
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587558531867" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1587558531867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="5" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586451390861" />
-    <state width="1493" height="5" key="GridCell.Tab.0.right" timestamp="1586451390861">
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587558531867" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1587558531867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="5" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586451390861" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587558531867" />
     <state width="1493" height="284" key="GridCell.Tab.1.bottom" timestamp="1586264460285">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,62 +393,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1536.824@0.0.1536.824" timestamp="1586421590565" />
-    <state x="266" y="40" width="1169" height="758" key="SettingsEditor" timestamp="1586450291707">
+    <state x="307" y="3" width="1169" height="821" key="SettingsEditor" timestamp="1587557875928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="40" width="1169" height="758" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586450291707" />
+    <state x="307" y="3" width="1169" height="821" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587557875928" />
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1586163996271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1586163996271" />
-    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1586355623703">
+    <state x="490" y="154" width="891" height="524" key="StructurePopup" timestamp="1587557441290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586355623703" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586417478553">
+    <state x="490" y="154" width="891" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1587557441290" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586865405708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586417478553" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586238508333">
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586865405708" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586497152107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586238508333" />
-    <state x="524" y="259" key="cloudConfig.SelfSettingsDialog" timestamp="1586350768284">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586497152107" />
+    <state x="524" y="259" key="cloudConfig.SelfSettingsDialog" timestamp="1587134829223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="259" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586350768284" />
+    <state x="524" y="259" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587134829223" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586494823534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1586494823534" />
-    <state x="413" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1586494715079">
+    <state x="413" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1587611528756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="413" y="204" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586494715079" />
-    <state x="249" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586429520846">
+    <state x="413" y="204" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587611528756" />
+    <state x="249" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586865864526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1586429520846" />
+    <state x="249" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1586865864526" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586417485425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586417485425" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1586862030898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1586862030898" />
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="dock-window-2" timestamp="1586862167607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" maximized="true" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1586862167607" />
     <state x="611" y="148" key="ftp.server.browser" timestamp="1586352918385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="611" y="148" key="ftp.server.browser/0.0.1536.824@0.0.1536.824" timestamp="1586352918385" />
+    <state width="1010" height="526" key="javadoc.popup" timestamp="1587557994514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="432" height="230" key="javadoc.popup.new" timestamp="1587558230851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="432" height="230" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1587558230851" />
+    <state width="1010" height="526" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1587557994514" />
     <state x="519" y="239" width="715" height="517" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586357620566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="519" y="239" width="715" height="517" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1586357620566" />
-    <state x="510" y="54" key="refactoring.ChangeSignatureDialog" timestamp="1586231812731">
+    <state x="409" y="0" width="598" height="822" key="recent.locations.popup" timestamp="1586863331374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="510" y="54" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1586231812731" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586350586579">
+    <state x="409" y="0" width="598" height="822" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1586863331374" />
+    <state x="510" y="54" key="refactoring.ChangeSignatureDialog" timestamp="1587558477976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586350586579" />
+    <state x="510" y="54" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587558477976" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1587224320650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587224320650" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587203365127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587203365127" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

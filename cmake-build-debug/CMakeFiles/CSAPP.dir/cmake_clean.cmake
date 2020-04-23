@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CSAPP.dir/Chapter3/chapter3.c.obj"
   "CMakeFiles/CSAPP.dir/Chapter5/chapter5.c.obj"
   "CMakeFiles/CSAPP.dir/Chapter6/chapter6.c.obj"
+  "CMakeFiles/CSAPP.dir/Chapter8/chapter8.c.obj"
   "CMakeFiles/CSAPP.dir/main.c.obj"
   "CSAPP.exe"
   "CSAPP.exe.manifest"

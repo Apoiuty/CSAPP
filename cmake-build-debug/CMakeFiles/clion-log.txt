@@ -1,4 +1,4 @@
-"D:\Program Files (x86)\JetBrains\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Project\CSAPP
+"D:\Program Files (x86)\JetBrains\apps\CLion\ch-1\201.6668.126\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Project\CSAPP
 -- Configuring done
 -- Generating done
 -- Build files have been written to: E:/Project/CSAPP/cmake-build-debug

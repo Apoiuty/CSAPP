@@ -24,9 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/CSAPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSAPP"/>
@@ -42,9 +42,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/CSAPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSAPP/fast"/>
@@ -96,6 +96,12 @@
 			<Option target="CSAPP"/>
 		</Unit>
 		<Unit filename="E:/Project/CSAPP/Chapter6/chapter6.h">
+			<Option target="CSAPP"/>
+		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter8/chapter8.c">
+			<Option target="CSAPP"/>
+		</Unit>
+		<Unit filename="E:/Project/CSAPP/Chapter8/chapter8.h">
 			<Option target="CSAPP"/>
 		</Unit>
 		<Unit filename="E:/Project/CSAPP/main.c">

@@ -10,6 +10,7 @@ long decode2(long x, long y, long z) {
     return ((tmp << 63) >> 63) ^ x;
 }
 
+
 long loop(long x, int n) {
     long re = 0;
     long mask;

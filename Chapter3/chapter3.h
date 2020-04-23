@@ -8,20 +8,20 @@
 typedef struct {
     long idx;
     long x[4];
-}a_struct;
+} a_struct;
 
 typedef struct {
     int first;
     a_struct a[7];
     int last;
-}b_strcut;
+} b_strcut;
 
 /**
  * 3.69
  * @param i
  * @param bp
  */
-void test(long i,b_strcut *bp);
+void test(long i, b_strcut *bp);
 
 /**
  * 3.58
@@ -30,7 +30,7 @@ void test(long i,b_strcut *bp);
  * @param z
  * @return
  */
-long decode2(long x,long y,long z);
+long decode2(long x, long y, long z);
 
 /**
  * 3.60
@@ -38,16 +38,18 @@ long decode2(long x,long y,long z);
  * @param n
  * @return
  */
-long loop(long x,int n);
+long loop(long x, int n);
 
 /**
  * 3.61
  * @param xp
  * @return
  */
-long  cread_alt(long *xp);
+long cread_alt(long *xp);
 
-typedef enum {A , B, C, D, E} mode_t;
+typedef enum {
+    A, B, C, D, E
+} mode_t;
 
 /**
  * 3.62
@@ -56,7 +58,7 @@ typedef enum {A , B, C, D, E} mode_t;
  * @param action
  * @return
  */
-long switch3(long *p1,long *p2,mode_t action);
+long switch3(long *p1, long *p2, mode_t action);
 
 /**
  * 3.63
@@ -64,7 +66,7 @@ long switch3(long *p1,long *p2,mode_t action);
  * @param n
  * @return
  */
-long switch_prob(long x,long n);
+long switch_prob(long x, long n);
 
 /**
  * 3.73
@@ -75,3 +77,4 @@ int find_range(float x);
 
 
 #endif //CSAPP_CHAPTER3_H
+
