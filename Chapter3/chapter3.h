@@ -10,11 +10,13 @@ typedef struct {
     long x[4];
 } a_struct;
 
+//nothing here
 typedef struct {
     int first;
     a_struct a[7];
     int last;
 } b_strcut;
+
 
 /**
  * 3.69

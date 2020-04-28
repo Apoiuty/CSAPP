@@ -5,7 +5,7 @@
 #include "chapter3.h"
 
 long decode2(long x, long y, long z) {
-    long tmp = y - z;
+    long tmp= y - z;
     x = x * tmp;
     return ((tmp << 63) >> 63) ^ x;
 }
